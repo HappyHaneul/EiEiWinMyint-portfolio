@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ho Taru — Branding & Marketing | Localization | Founder of Happy Subtitle Channel" />
+  <title>Ho Taru | Portfolio</title>
+  <!-- Tailwind via CDN for fast publish. If you prefer no CDN, tell me and I'll convert to plain CSS. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small enhancements */
+    .glass { background: rgba(255,255,255,.06); backdrop-filter: blur(10px); }
+    .ring-soft { box-shadow: 0 0 0 1px rgba(255,255,255,.08) inset; }
+    .skip { position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden; }
+    .skip:focus { left: 1rem; top: 1rem; width:auto; height:auto; padding:.75rem 1rem; background:#111827; color:white; border-radius:.75rem; z-index: 50; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/80 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-white/10 ring-soft"></div>
+        <div>
+          <div class="font-semibold leading-tight">Ho Taru</div>
+          <div class="text-xs text-slate-300">Branding & Marketing • Localization • Content Strategy</div>
+        </div>
+      </div>
+      <nav class="hidden gap-5 text-sm text-slate-200 md:flex">
+        <a class="hover:text-white" href="#about">About</a>
+        <a class="hover:text-white" href="#work">Work</a>
+        <a class="hover:text-white" href="#projects">Projects</a>
+        <a class="hover:text-white" href="#skills">Skills</a>
+        <a class="hover:text-white" href="#contact">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="langBtn" class="rounded-xl border border-white/15 bg-white/5 px-3 py-2 text-xs hover:bg-white/10" aria-label="Toggle language">EN</button>
+        <a class="rounded-xl bg-white px-3 py-2 text-xs font-semibold text-slate-900 hover:bg-slate-200" href="#contact">Hire / Collaborate</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="mx-auto max-w-6xl px-4">
+
+    <!-- Hero -->
+    <section class="relative py-14">
+      <div class="absolute inset-0 -z-10 bg-gradient-to-b from-indigo-500/15 via-transparent to-transparent"></div>
+      <div class="grid items-center gap-10 md:grid-cols-12">
+        <div class="md:col-span-7">
+          <p class="text-sm text-slate-300" data-i18n="tagline">Building brands people trust — and content that travels across languages.</p>
+          <h1 class="mt-3 text-4xl font-bold leading-tight md:text-5xl" data-i18n="headline">
+            Branding & Marketing Leader<br class="hidden md:block" /> with Localization at Scale
+          </h1>
+          <p class="mt-5 max-w-xl text-slate-200" data-i18n="intro">
+            I’m a branding & marketing professional (10+ years) and the founder of Happy Subtitle Channel (17,000+ episodes translated since 2021). I help teams grow through strategy, storytelling, PR, digital marketing, and multilingual localization.
+          </p>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <a class="rounded-xl bg-indigo-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-indigo-300" href="#projects" data-i18n="cta1">See projects</a>
+            <a class="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold hover:bg-white/10" href="#contact" data-i18n="cta2">Get in touch</a>
+            <a class="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold hover:bg-white/10" href="#" id="downloadCv" data-i18n="cta3">Download CV</a>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-2 text-xs text-slate-300">
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="pill1">Brand Strategy</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="pill2">PR & Digital Marketing</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="pill3">Localization / Subtitles</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="pill4">Content Operations</span>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-sm text-slate-300" data-i18n="cardTitle">Quick facts</div>
+                <div class="mt-1 text-xl font-semibold" data-i18n="cardName">Ho Taru</div>
+              </div>
+              <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs" data-i18n="cardBadge">Open to Japan opportunities</span>
+            </div>
+            <dl class="mt-5 grid gap-3 text-sm">
+              <div class="flex justify-between gap-4"><dt class="text-slate-300" data-i18n="fact1k">Experience</dt><dd class="font-medium" data-i18n="fact1v">10+ years</dd></div>
+              <div class="flex justify-between gap-4"><dt class="text-slate-300" data-i18n="fact2k">Localization</dt><dd class="font-medium" data-i18n="fact2v">17,000+ episodes</dd></div>
+              <div class="flex justify-between gap-4"><dt class="text-slate-300" data-i18n="fact3k">Focus</dt><dd class="font-medium" data-i18n="fact3v">Brand, PR, Growth</dd></div>
+              <div class="flex justify-between gap-4"><dt class="text-slate-300" data-i18n="fact4k">Based</dt><dd class="font-medium" data-i18n="fact4v">Asia (Japan-ready)</dd></div>
+            </dl>
+            <div class="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <p class="text-xs text-slate-300" data-i18n="offerLabel">Service offer</p>
+              <p class="mt-1 text-sm" data-i18n="offerText">Localization packages for creators and companies: subtitles, QA, and multilingual publishing workflows.</p>
+              <a class="mt-3 inline-block text-sm font-semibold text-indigo-300 hover:text-indigo-200" href="#contact" data-i18n="offerLink">Request a quote →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="scroll-mt-24 py-12">
+      <h2 class="text-2xl font-bold" data-i18n="aboutTitle">About</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-12">
+        <div class="md:col-span-7">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <p class="text-slate-200" data-i18n="aboutBody">
+              I combine brand strategy with execution: positioning, campaigns, PR, digital marketing, and content operations. My work spans fintech and creator ecosystems, and I’ve built a large-scale subtitle operation as a founder. I value clarity, measurable impact, and long-term trust.
+            </p>
+            <ul class="mt-5 list-disc space-y-2 pl-5 text-sm text-slate-300">
+              <li data-i18n="aboutBul1">Branding & marketing leadership across planning, messaging, and launch execution</li>
+              <li data-i18n="aboutBul2">PR, partnerships, and community growth with strong storytelling</li>
+              <li data-i18n="aboutBul3">Localization workflows: subtitle production, QA, and publishing systems</li>
+            </ul>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <h3 class="font-semibold" data-i18n="highlightsTitle">Highlights</h3>
+            <div class="mt-4 space-y-4 text-sm">
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="text-slate-300" data-i18n="h1k">Founder</div>
+                <div class="font-semibold" data-i18n="h1v">Happy Subtitle Channel</div>
+                <div class="mt-1 text-slate-300" data-i18n="h1d">Scaled translation to 17,000+ episodes since 2021.</div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="text-slate-300" data-i18n="h2k">Fintech</div>
+                <div class="font-semibold" data-i18n="h2v">Brand Marketing Manager (ex-Onepay)</div>
+                <div class="mt-1 text-slate-300" data-i18n="h2d">Led brand & digital initiatives with PR experience.</div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="text-slate-300" data-i18n="h3k">Education</div>
+                <div class="font-semibold" data-i18n="h3v">IUJ DXP Applicant (Interview prep)</div>
+                <div class="mt-1 text-slate-300" data-i18n="h3d">Strong interest in data/analytics for growth and product strategy.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="scroll-mt-24 py-12">
+      <h2 class="text-2xl font-bold" data-i18n="workTitle">Work Experience</h2>
+      <div class="mt-6 grid gap-6">
+        <article class="glass ring-soft rounded-3xl p-6">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h3 class="text-lg font-semibold" data-i18n="w1t">Brand Marketing Manager — Onepay (Fintech)</h3>
+            <div class="text-sm text-slate-300">June 2023 – Sept 2024</div></div>
+          </div>
+          <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-300">
+            <li>Led brand marketing strategy and execution for Onepay, strengthening brand positioning in Myanmar’s fintech market.</li>
+            <li>Planned and executed integrated marketing campaigns (online & offline), collaborating closely with product, design, and external partners.</li>
+            <li>Managed PR and digital marketing initiatives, improving brand visibility, media presence, and user trust.</li>
+            <li>Supported business growth through consistent brand messaging, content strategy, and campaign performance tracking.</li>
+          </ul>
+        </article>
+
+        <article class="glass ring-soft rounded-3xl p-6">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h3 class="text-lg font-semibold" data-i18n="w2t">Founder — Happy Subtitle Channel</h3>
+            <div class="text-sm text-slate-300" data-i18n="w2d">2021 – Present</div>
+          </div>
+          <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-300">
+            <li data-i18n="w2b1">Produced and managed subtitle localization for 17,000+ episodes.</li>
+            <li data-i18n="w2b2">Built workflows, QA checks, and publishing processes to scale output.</li>
+            <li data-i18n="w2b3">Grew audience through consistent output and community engagement.</li>
+          </ul>
+        </article>
+
+        <article class="glass ring-soft rounded-3xl p-6">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h3 class="text-lg font-semibold" data-i18n="w3t">Branding & Marketing Professional</h3>
+            <div class="text-sm text-slate-300" data-i18n="w3d">10+ years</div>
+          </div>
+          <p class="mt-3 text-sm text-slate-300" data-i18n="w3b1">Available for consulting and in-house roles (Japan-focused). I specialize in clear messaging, growth strategy, and operational execution.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="scroll-mt-24 py-12">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <h2 class="text-2xl font-bold">Case Study</h2>
+        <p class="text-sm text-slate-300">Founder-led localization project at scale</p>
+      </div>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        <div class="glass ring-soft rounded-3xl p-6 md:col-span-3">
+          <div class="text-xs text-slate-300">Localization / Content Operations</div>
+          <h3 class="mt-1 text-xl font-semibold">Happy Subtitle Channel</h3>
+          <p class="mt-3 text-sm text-slate-300">
+            <strong>Background:</strong> Happy Subtitle Channel was founded in 2021 to provide high-quality subtitles and localization for long-form and episodic video content, helping creators and platforms reach wider, multilingual audiences.
+          </p>
+          <p class="mt-3 text-sm text-slate-300">
+            <strong>Challenge:</strong> Scaling subtitle production while maintaining quality, consistency, and turnaround time across a large volume of episodes.
+          </p>
+          <p class="mt-3 text-sm text-slate-300">
+            <strong>Actions:</strong>
+          </p>
+          <ul class="mt-2 list-disc space-y-2 pl-5 text-sm text-slate-300">
+            <li>Designed and managed end-to-end subtitle workflows, from transcription and translation to QA and publishing.</li>
+            <li>Established quality standards, terminology consistency, and review processes to ensure accuracy at scale.</li>
+            <li>Built a repeatable production system that enabled collaboration with translators and reviewers.</li>
+            <li>Managed scheduling and delivery to meet tight publishing timelines.</li>
+          </ul>
+          <p class="mt-3 text-sm text-slate-300">
+            <strong>Results:</strong>
+          </p>
+          <ul class="mt-2 list-disc space-y-2 pl-5 text-sm text-slate-300">
+            <li>Successfully delivered subtitles for <strong>17,000+ episodes</strong> since 2021.</li>
+            <li>Improved turnaround speed while maintaining consistent quality across content.</li>
+            <li>Enabled creators and platforms to expand reach and engagement through multilingual accessibility.</li>
+          </ul>
+          <a class="mt-4 inline-block text-sm font-semibold text-indigo-300 hover:text-indigo-200" href="https://www.youtube.com/channel/UCsSDR7Q6nus2IKFjsw2ZXDA" target="_blank">View Channel →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="scroll-mt-24 py-12">
+      <h2 class="text-2xl font-bold" data-i18n="skillsTitle">Skills</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-12">
+        <div class="md:col-span-7">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <div class="grid gap-3 md:grid-cols-2 text-sm">
+              <div>
+                <div class="font-semibold" data-i18n="s1t">Brand & Growth</div>
+                <p class="mt-1 text-slate-300" data-i18n="s1d">Positioning, messaging, campaign planning, go-to-market, analytics mindset.</p>
+              </div>
+              <div>
+                <div class="font-semibold" data-i18n="s2t">PR & Communications</div>
+                <p class="mt-1 text-slate-300" data-i18n="s2d">Press strategy, storytelling, partnerships, community engagement.</p>
+              </div>
+              <div>
+                <div class="font-semibold" data-i18n="s3t">Localization Ops</div>
+                <p class="mt-1 text-slate-300" data-i18n="s3d">Subtitle workflows, QA checks, terminology consistency, scaling processes.</p>
+              </div>
+              <div>
+                <div class="font-semibold" data-i18n="s4t">Tools</div>
+                <p class="mt-1 text-slate-300" data-i18n="s4d">Google Workspace, Notion, basic analytics, content tools (add your list).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <h3 class="font-semibold" data-i18n="certTitle">Certifications</h3>
+            <ul class="mt-3 space-y-2 text-sm text-slate-300">
+              <li data-i18n="cert1">Diploma in Brand and Marketing Management</li>
+              <li data-i18n="cert2">TOEIC 770</li>
+            </ul>
+            <div class="mt-5 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <div class="text-xs text-slate-300" data-i18n="langTitle">Languages</div>
+              <div class="mt-2 flex flex-wrap gap-2 text-xs">
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="lang1">Burmese (Native)</span>
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="lang2">English (Professional)</span>
+                <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1" data-i18n="lang3">Japanese (Learning)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="scroll-mt-24 py-12">
+      <h2 class="text-2xl font-bold" data-i18n="contactTitle">Contact</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-12">
+        <div class="md:col-span-7">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <p class="text-slate-300" data-i18n="contactBody">For collaborations, roles, or localization/subtitle projects, email me and include your timeline + links.</p>
+            <div class="mt-5 flex flex-wrap gap-3">
+              <a class="rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-slate-200" href="mailto:flytothesky.lay@gmail.com">flytothesky.lay@gmail.com</a>
+              <button id="copyEmail" class="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold hover:bg-white/10" data-i18n="copyBtn">Copy email</button>
+            </div>
+            <div class="mt-6 grid gap-3 text-sm text-slate-300">
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="font-semibold" data-i18n="ctaBoxTitle">Want a subtitle quote?</div>
+                <p class="mt-1" data-i18n="ctaBoxBody">Send: video length, languages, deadline, and a sample link.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="glass ring-soft rounded-3xl p-6">
+            <h3 class="font-semibold" data-i18n="socialTitle">Links</h3>
+            <ul class="mt-3 space-y-2 text-sm">
+              <li><a class="text-indigo-300 hover:text-indigo-200" href="https://www.linkedin.com/in/ei-ei-win-myint-treza-521853157/" data-i18n="link1">LinkedIn</a></li>
+              <li><a class="text-indigo-300 hover:text-indigo-200" href="https://www.youtube.com/channel/UCsSDR7Q6nus2IKFjsw2ZXDA" data-i18n="link2">YouTube / Happy Subtitle Channel</a></li>
+              <li><a class="text-indigo-300 hover:text-indigo-200" href="#" data-i18n="link3">Portfolio PDF (optional)</a></li>
+            </ul>
+            <p class="mt-6 text-xs text-slate-400" data-i18n="privacy">Tip: keep personal details minimal; publish only what you’re comfortable sharing publicly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t border-white/10 py-10 text-center text-xs text-slate-400">
+      <p>© <span id="year"></span> Ho Taru. <span data-i18n="footer">Built for fast publishing.</span></p>
+    </footer>
+
+  </main>
+
+  <script>
+    // --- Minimal interactivity ---
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const email = 'flytothesky.lay@gmail.com';
+    document.getElementById('copyEmail').addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(email);
+        const btn = document.getElementById('copyEmail');
+        const old = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => (btn.textContent = old), 1400);
+      } catch (e) {
+        alert('Copy failed. Please copy manually: ' + email);
+      }
+    });
+
+    // Placeholder CV download: replace CV_URL with your PDF link after you upload it (Drive/Dropbox/your domain)
+    const CV_URL = 'https://drive.google.com/file/d/1FDpYgSMjXYKnMACBk_HIx1BHnrlXvIMd/view?usp=sharing'; // e.g., 'https://example.com/HoTaru-CV.pdf'
+    document.getElementById('downloadCv').addEventListener('click', (e) => {
+      e.preventDefault();
+      if (!CV_URL) {
+        alert('CV link not set yet. Upload your CV PDF and paste the link into CV_URL in the code.');
+        return;
+      }
+      window.open(CV_URL, '_blank', 'noopener');
+    });
+
+    // --- Simple i18n: EN + MY + JP (lightweight) ---
+    const dict = {
+      EN: {
+        tagline: 'Building brands people trust — and content that travels across languages.',
+        headline: 'Branding & Marketing Leader\nwith Localization at Scale',
+        intro: 'I\'m a branding & marketing professional (10+ years) and the founder of Happy Subtitle Channel (17,000+ episodes translated since 2021). I help teams grow through strategy, storytelling, PR, digital marketing, and multilingual localization.',
+        cta1: 'See projects', cta2: 'Get in touch', cta3: 'Download CV',
+        pill1: 'Brand Strategy', pill2: 'PR & Digital Marketing', pill3: 'Localization / Subtitles', pill4: 'Content Operations',
+        cardTitle: 'Quick facts', cardName: 'Ho Taru', cardBadge: 'Open to Japan opportunities',
+        fact1k: 'Experience', fact1v: '10+ years', fact2k: 'Localization', fact2v: '17,000+ episodes', fact3k: 'Focus', fact3v: 'Brand, PR, Growth', fact4k: 'Based', fact4v: 'Asia (Japan-ready)',
+        offerLabel: 'Service offer', offerText: 'Localization packages for creators and companies: subtitles, QA, and multilingual publishing workflows.', offerLink: 'Request a quote →',
+        aboutTitle: 'About',
+        aboutBody: 'I combine brand strategy with execution: positioning, campaigns, PR, digital marketing, and content operations. My work spans fintech and creator ecosystems, and I\'ve built a large-scale subtitle operation as a founder. I value clarity, measurable impact, and long-term trust.',
+        aboutBul1: 'Branding & marketing leadership across planning, messaging, and launch execution',
+        aboutBul2: 'PR, partnerships, and community growth with strong storytelling',
+        aboutBul3: 'Localization workflows: subtitle production, QA, and publishing systems',
+        highlightsTitle: 'Highlights',
+        h1k: 'Founder', h1v: 'Happy Subtitle Channel', h1d: 'Scaled translation to 17,000+ episodes since 2021.',
+        h2k: 'Fintech', h2v: 'Brand Marketing Manager (ex-Onepay)', h2d: 'Led brand & digital initiatives with PR experience.',
+        h3k: 'Education', h3v: 'IUJ DXP Applicant (Interview prep)', h3d: 'Strong interest in data/analytics for growth and product strategy.',
+        workTitle: 'Work Experience',
+        w1t: 'Brand Marketing Manager — Onepay (Fintech)', w1d: '(Dates: add)',
+        w1b1: 'Led brand positioning and campaign planning; coordinated cross-functional execution.',
+        w1b2: 'Managed PR and digital marketing initiatives to grow awareness and trust.',
+        w1b3: 'Worked with partners and stakeholders to amplify reach.',
+        w2t: 'Founder — Happy Subtitle Channel', w2d: '2021 – Present',
+        w2b1: 'Produced and managed subtitle localization for 17,000+ episodes.',
+        w2b2: 'Built workflows, QA checks, and publishing processes to scale output.',
+        w2b3: 'Grew audience through consistent output and community engagement.',
+        w3t: 'Branding & Marketing Professional', w3d: '10+ years',
+        w3b1: 'Available for consulting and in-house roles (Japan-focused). I specialize in clear messaging, growth strategy, and operational execution.',
+        projTitle: 'Selected Projects', projHint: 'Replace placeholders with links/screenshots when ready.',
+        p1k: 'Localization', p1t: 'Happy Subtitle Channel — Ops System', p1d: 'Scaled subtitle production with QA and publishing workflows.', p1l: 'Add link →',
+        p2k: 'Brand', p2t: 'Fintech Brand Campaign', p2d: 'Positioning + digital execution to strengthen trust and adoption.', p2l: 'Add case study →',
+        p3k: 'PR / Growth', p3t: 'Community & Partnerships', p3d: 'Strategic storytelling, collaborations, and channel growth tactics.', p3l: 'Add examples →',
+        skillsTitle: 'Skills',
+        s1t: 'Brand & Growth', s1d: 'Positioning, messaging, campaign planning, go-to-market, analytics mindset.',
+        s2t: 'PR & Communications', s2d: 'Press strategy, storytelling, partnerships, community engagement.',
+        s3t: 'Localization Ops', s3d: 'Subtitle workflows, QA checks, terminology consistency, scaling processes.',
+        s4t: 'Tools', s4d: 'Google Workspace, Notion, basic analytics, content tools (add your list).',
+        certTitle: 'Certifications', cert1: 'Marketing diplomas/certifications (add names)', cert2: 'TOEIC 770',
+        langTitle: 'Languages', lang1: 'Burmese (Native)', lang2: 'English (Professional)', lang3: 'Japanese (Learning)',
+        contactTitle: 'Contact',
+        contactBody: 'For collaborations, roles, or localization/subtitle projects, email me and include your timeline + links.',
+        copyBtn: 'Copy email',
+        ctaBoxTitle: 'Want a subtitle quote?', ctaBoxBody: 'Send: video length, languages, deadline, and a sample link.',
+        socialTitle: 'Links', link1: 'LinkedIn (add link)', link2: 'YouTube / Channel (add link)', link3: 'Portfolio PDF (optional)',
+        privacy: 'Tip: keep personal details minimal; publish only what you’re comfortable sharing publicly.',
+        footer: 'Built for fast publishing.'
+      },
+      MY: {
+        tagline: 'လူတွေယုံကြည်တဲ့ brand တည်ဆောက်ပြီး ဘာသာစကားကျော်ဖြတ်နိုင်တဲ့ content ဖန်တီးမယ်။',
+        headline: 'Branding & Marketing\n(အကောင်းဆုံး Localization ဖြင့်)',
+        intro: 'ကျွန်မ Ho Taru ပါ။ Branding & Marketing အတွေ့အကြုံ 10+ နှစ်ရှိပြီး Happy Subtitle Channel ကို 2021 ကစပြီး တည်ထောင်ထားပါတယ် (episodes 17,000+ translate). Strategy, storytelling, PR, digital marketing နှင့် multilingual localization ဖြင့် team တွေကို ကြီးထွားအောင် ကူညီပါတယ်။',
+        cta1: 'Project တွေကြည့်မယ်', cta2: 'ဆက်သွယ်မယ်', cta3: 'CV ဒေါင်းလုပ်',
+        pill1: 'Brand Strategy', pill2: 'PR & Digital', pill3: 'Localization/Subtitle', pill4: 'Content Ops',
+        cardTitle: 'အမြန်အချက်အလက်', cardName: 'Ho Taru', cardBadge: 'Japan အလုပ်အခွင့်အရေး စိတ်ဝင်စား',
+        fact1k: 'အတွေ့အကြုံ', fact1v: '10+ နှစ်', fact2k: 'Localization', fact2v: '17,000+ episodes', fact3k: 'Focus', fact3v: 'Brand/PR/Growth', fact4k: 'တည်နေရာ', fact4v: 'Asia (Japan-ready)',
+        offerLabel: 'Service', offerText: 'Creator/Company များအတွက် Subtitle + QA + Multilingual publishing workflow ပက်ကေ့ج်များ။', offerLink: 'Quote တောင်းမယ် →',
+        aboutTitle: 'မိတ်ဆက်',
+        aboutBody: 'Positioning၊ campaign၊ PR၊ digital marketing၊ content operations တွေကို strategy နဲ့တပြိုင်နက် လက်တွေ့ကျကျ လုပ်နိုင်ပါတယ်။ Fintech နဲ့ creator ecosystem မှာ လုပ်ကိုင်ခဲ့ပြီး subtitle operation ကို founder အနေနဲ့ scale လုပ်ထားပါတယ်။',
+        aboutBul1: 'Branding & marketing planning မှ launch အထိ ဦးဆောင်ခြင်း',
+        aboutBul2: 'PR/Partnerships/Community growth',
+        aboutBul3: 'Subtitle production + QA + publishing system တည်ဆောက်ခြင်း',
+        highlightsTitle: 'Highlights',
+        h1k: 'Founder', h1v: 'Happy Subtitle Channel', h1d: '2021 ကစပြီး 17,000+ episodes translate & publish.',
+        h2k: 'Fintech', h2v: 'Brand Marketing Manager (ex-Onepay)', h2d: 'Brand & digital initiatives + PR.',
+        h3k: 'Education', h3v: 'IUJ DXP Applicant', h3d: 'Data/analytics mindset ဖြင့် growth ကို စိတ်ဝင်စား။',
+        workTitle: 'အလုပ်အတွေ့အကြုံ',
+        w1t: 'Brand Marketing Manager — Onepay', w1d: '(နေ့ရက်ထည့်ပါ)',
+        w1b1: 'Brand positioning & campaign planning ဦးဆောင်ခဲ့သည်။',
+        w1b2: 'PR နှင့် digital marketing ဖြင့် awareness/trust တိုးမြှင့်။',
+        w1b3: 'Partner များနှင့် အတူ reach တိုးမြှင့်။',
+        w2t: 'Founder — Happy Subtitle Channel', w2d: '2021 – လက်ရှိ',
+        w2b1: 'Subtitle localization 17,000+ episodes ထုတ်လုပ်/စီမံ။',
+        w2b2: 'Workflow/QA/publishing process တည်ဆောက်။',
+        w2b3: 'Community engagement ဖြင့် audience တိုးတက်။',
+        w3t: 'Branding & Marketing Professional', w3d: '10+ နှစ်',
+        w3b1: 'Japan-focused role/consulting အတွက် အဆင်သင့်။',
+        projTitle: 'Project အနည်းငယ်', projHint: 'Link/ရုပ်ပုံတွေကို နောက်မှထည့်နိုင်ပါတယ်။',
+        p1k: 'Localization', p1t: 'Subtitle Ops System', p1d: 'Scaling + QA + publishing workflows.', p1l: 'Link ထည့်မယ် →',
+        p2k: 'Brand', p2t: 'Fintech Brand Campaign', p2d: 'Positioning + digital execution.', p2l: 'Case study ထည့်မယ် →',
+        p3k: 'PR/Growth', p3t: 'Community & Partnerships', p3d: 'Collab + storytelling + growth tactics.', p3l: 'Examples ထည့်မယ် →',
+        skillsTitle: 'Skills',
+        s1t: 'Brand & Growth', s1d: 'Positioning, messaging, campaign planning.',
+        s2t: 'PR & Communications', s2d: 'Press strategy, partnerships.',
+        s3t: 'Localization Ops', s3d: 'Subtitle workflows, QA, terminology.',
+        s4t: 'Tools', s4d: 'Google Workspace, Notion, (ထည့်ပါ).',
+        certTitle: 'Certifications', cert1: 'Marketing diplomas/certifications (ထည့်ပါ)', cert2: 'TOEIC 770',
+        langTitle: 'Languages', lang1: 'မြန်မာ (Native)', lang2: 'အင်္ဂလိပ် (Professional)', lang3: 'ဂျပန် (Learning)',
+        contactTitle: 'ဆက်သွယ်ရန်',
+        contactBody: 'Collaboration/role/subtitle project များအတွက် email ပို့ပါ။ Timeline + link ပါထည့်ပေးပါ။',
+        copyBtn: 'Email ကူးမယ်',
+        ctaBoxTitle: 'Subtitle quote လိုပါသလား?', ctaBoxBody: 'Video length, languages, deadline, sample link ပို့ပါ။',
+        socialTitle: 'Links', link1: 'LinkedIn (link ထည့်ပါ)', link2: 'YouTube/Channel (link ထည့်ပါ)', link3: 'Portfolio PDF (optional)',
+        privacy: 'Public မျှဝေချင်တဲ့ အချက်အလက်တွေကိုသာ ထည့်ပါ။',
+        footer: 'အလွယ်တကူ publish လုပ်နိုင်အောင် တည်ဆောက်ထားပါတယ်။'
+      },
+      JP: {
+        tagline: '信頼されるブランドと、言語を超えて届くコンテンツを。',
+        headline: 'ブランディング＆マーケ\n（大規模ローカライズ対応）',
+        intro: 'Ho Taruです。ブランディング／マーケ経験10年以上。2021年よりHappy Subtitle Channelを創業し、17,000本以上の字幕翻訳を運用。戦略、PR、デジタル施策、ローカライズで成長を支援します。',
+        cta1: '実績を見る', cta2: '連絡する', cta3: 'CVをDL',
+        pill1: 'ブランド戦略', pill2: 'PR/デジタル', pill3: '字幕/ローカライズ', pill4: '運用設計',
+        cardTitle: '概要', cardName: 'Ho Taru', cardBadge: '日本での機会に前向き',
+        fact1k: '経験', fact1v: '10年以上', fact2k: '字幕運用', fact2v: '17,000本以上', fact3k: '領域', fact3v: 'Brand/PR/Growth', fact4k: '拠点', fact4v: 'Asia（日本可）',
+        offerLabel: '提供サービス', offerText: '字幕制作・品質管理・多言語公開フローのパッケージ。', offerLink: '見積もり依頼 →',
+        aboutTitle: '自己紹介',
+        aboutBody: 'ポジショニング、キャンペーン、PR、デジタル施策、運用まで一気通貫で実行します。Fintechとクリエイター領域で経験があり、字幕運用を創業者としてスケールしました。',
+        aboutBul1: 'ブランド戦略〜ローンチ実行までのリード',
+        aboutBul2: 'PR／パートナーシップ／コミュニティ成長',
+        aboutBul3: '字幕制作・QA・公開のワークフロー設計',
+        highlightsTitle: 'ハイライト',
+        h1k: '創業', h1v: 'Happy Subtitle Channel', h1d: '2021年〜、字幕翻訳17,000本以上。',
+        h2k: 'Fintech', h2v: 'Brand Marketing Manager（元Onepay）', h2d: 'ブランドとデジタル施策、PR。',
+        h3k: '学び', h3v: 'IUJ DXP 志願', h3d: 'データ/分析で成長を強化。',
+        workTitle: '職務経歴',
+        w1t: 'Brand Marketing Manager — Onepay', w1d: '（期間：追記）',
+        w1b1: 'ブランドポジショニングとキャンペーン設計を推進。',
+        w1b2: 'PRとデジタル施策で認知・信頼を向上。',
+        w1b3: 'パートナー連携でリーチ拡大。',
+        w2t: 'Founder — Happy Subtitle Channel', w2d: '2021 – 現在',
+        w2b1: '字幕ローカライズを17,000本以上運用。',
+        w2b2: 'ワークフロー／QA／公開プロセスを構築。',
+        w2b3: '継続運用でコミュニティ成長。',
+        w3t: 'Branding & Marketing Professional', w3d: '10年以上',
+        w3b1: '日本での就業・コンサルも可能。',
+        projTitle: '主な実績', projHint: 'リンクや画像は後で追加できます。',
+        p1k: 'ローカライズ', p1t: '字幕運用システム', p1d: '制作・QA・公開のスケール。', p1l: 'リンク追加 →',
+        p2k: 'ブランド', p2t: 'Fintechキャンペーン', p2d: 'ポジショニング＋デジタル実行。', p2l: '事例追加 →',
+        p3k: 'PR/Growth', p3t: 'コミュニティ＆提携', p3d: 'コラボとストーリーで成長。', p3l: '例を追加 →',
+        skillsTitle: 'スキル',
+        s1t: 'Brand & Growth', s1d: 'ポジショニング、メッセージ、キャンペーン設計。',
+        s2t: 'PR & Communications', s2d: 'PR設計、提携、コミュニティ。',
+        s3t: 'Localization Ops', s3d: '字幕制作、QA、用語統一、運用。',
+        s4t: 'Tools', s4d: 'Google Workspace、Notion等（追記）。',
+        certTitle: '資格', cert1: 'マーケ系資格（追記）', cert2: 'TOEIC 770',
+        langTitle: '言語', lang1: 'ミャンマー語（母語）', lang2: '英語（ビジネス）', lang3: '日本語（学習中）',
+        contactTitle: 'お問い合わせ',
+        contactBody: '採用・協業・字幕案件など、お気軽にメールください（期限／言語／リンクをご記載ください）。',
+        copyBtn: 'メールをコピー',
+        ctaBoxTitle: '字幕の見積もり', ctaBoxBody: '動画尺、言語、期限、サンプルURLをお送りください。',
+        socialTitle: 'リンク', link1: 'LinkedIn（追加）', link2: 'YouTube/Channel（追加）', link3: 'PDFポートフォリオ（任意）',
+        privacy: '公開する個人情報は最小限に。',
+        footer: 'すぐ公開できる形で作成。'
+      }
+    };
+    const langBtn = document.getElementById('langBtn');
+    const order = ['EN','MY','JP'];
+    let current = 'EN';
+
+    function applyLang(lang){
+      current = lang;
+      langBtn.textContent = lang;
+      document.documentElement.lang = (lang === 'JP') ? 'ja' : (lang === 'MY') ? 'my' : 'en';
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const val = dict[lang][key];
+        if (!val) return;
+        el.innerHTML = val.replace(/\n/g,'<br />');
+      });
+    }
+
+    langBtn.addEventListener('click', () => {
+      const idx = order.indexOf(current);
+      applyLang(order[(idx+1) % order.length]);
+    });
+
+    applyLang('EN');
+  </script>
+</body>
+</html>
